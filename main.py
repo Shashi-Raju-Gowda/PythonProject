@@ -2,7 +2,7 @@ class bookmymovie:
     def menu(self):
         ans = True
         while ans:
-            self.choice = int(input("\n1. Show the seats\n2. Buy a ticket\n3. Statistics\n4. Show booked ticket user info\n5. Exit\n"))
+            self.choice = int(input("\n1. Show the seats\n2. Buy a ticket\n3. Statistics\n4. Show booked ticket user info\n0. Exit\n"))
             if self.choice == 1:
                 self.show_seats()
             elif self.choice == 2:
